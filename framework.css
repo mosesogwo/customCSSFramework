@@ -102,6 +102,10 @@ input, select {
 }
 /* END OF CSS RESET */
 
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
 .row {
     display: grid;
     grid-template-columns: repeat(12, 1fr);
