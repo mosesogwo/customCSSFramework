@@ -108,58 +108,94 @@ body {
 
 .row {
     display: grid;
-    grid-template-columns: repeat(12, 1fr);
+    grid-template-columns: 1fr;
     grid-gap: 1rem;
     align-items: end;
 }
 
-.one-col {
-    grid-column: auto/span 1;
+.one-col, .two-col, .three-col, .four-col, 
+.five-col, .six-col, .seven-col, .eight-col,
+.nine-col, .ten-col, .eleven-col, .twelve-col {
+    grid-column: 1 / -1;
 }
 
-.two-col {
-    grid-column: auto/span 2;
+@media screen and (min-width: 768px) {
+    .row {
+        grid-template-columns: repeat(6, 1fr)
+    }
+
+    .one-col, .two-col, .three-col, .four-col {
+        grid-column: auto / span 2
+    }
+
+    .five-col, .six-col, .seven-col, .eight-col {
+        grid-column: auto / span 4
+    }
+
+    .nine-col, .ten-col, .eleven-col, .twelve-col {
+        grid-column: auto / span 6
+    }
+
 }
 
-.three-col {
-    grid-column: auto/span 3;
+@media screen and (min-width: 1024px) {
+    
+    .row {
+        grid-template-columns: repeat(12, 1fr);
+        grid-gap: 1rem;
+        align-items: end;
+    }
+
+    .one-col {
+        grid-column: auto/span 1;
+    }
+    
+    .two-col {
+        grid-column: auto/span 2;
+    }
+    
+    .three-col {
+        grid-column: auto/span 3;
+    }
+    
+    .four-col {
+        grid-column: auto/span 4;
+    }
+    
+    .five-col {
+        grid-column: auto/span 5;
+    }
+    
+    .six-col {
+        grid-column: auto/span 6;
+    }
+    
+    .seven-col {
+        grid-column: auto/span 7;
+    }
+    
+    .eight-col {
+        grid-column: auto/span 8;
+    }
+    
+    .nine-col {
+        grid-column: auto/span 9;
+    }
+    
+    .ten-col {
+        grid-column: auto/span 10;
+    }
+    
+    .eleven-col {
+        grid-column: auto/span 11;
+    }
+    
+    .twelve-col {
+        grid-column: auto/span 12;
+    }
+
 }
 
-.four-col {
-    grid-column: auto/span 4;
-}
-
-.five-col {
-    grid-column: auto/span 5;
-}
-
-.six-col {
-    grid-column: auto/span 6;
-}
-
-.seven-col {
-    grid-column: auto/span 7;
-}
-
-.eight-col {
-    grid-column: auto/span 8;
-}
-
-.nine-col {
-    grid-column: auto/span 9;
-}
-
-.ten-col {
-    grid-column: auto/span 10;
-}
-
-.eleven-col {
-    grid-column: auto/span 11;
-}
-
-.twelve-col {
-    grid-column: auto/span 12;
-}
 
 h1, h2, h3, h4, h5, h6 {
     font-weight: bold;
@@ -188,3 +224,4 @@ h5 {
 h6 {
     font-size: 1rem
 }
+
