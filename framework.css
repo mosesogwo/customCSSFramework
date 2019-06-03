@@ -110,49 +110,53 @@ input, select {
 }
 
 .one-col {
-    grid-column: auto/span 1
+    grid-column: auto/span 1;
 }
 
 .two-col {
-    grid-column: auto/span 2
+    grid-column: auto/span 2;
 }
 
 .three-col {
-    grid-column: auto/span 3
+    grid-column: auto/span 3;
 }
 
 .four-col {
-    grid-column: auto/span 4
+    grid-column: auto/span 4;
 }
 
 .five-col {
-    grid-column: auto/span 5
+    grid-column: auto/span 5;
 }
 
 .six-col {
-    grid-column: auto/span 6
+    grid-column: auto/span 6;
 }
 
 .seven-col {
-    grid-column: auto/span 7
+    grid-column: auto/span 7;
 }
 
 .eight-col {
-    grid-column: auto/span 8
+    grid-column: auto/span 8;
 }
 
 .nine-col {
-    grid-column: auto/span 9
+    grid-column: auto/span 9;
 }
 
 .ten-col {
-    grid-column: auto/span 10
+    grid-column: auto/span 10;
 }
 
 .eleven-col {
-    grid-column: auto/span 11
+    grid-column: auto/span 11;
 }
 
 .twelve-col {
-    grid-column: auto/span 12
+    grid-column: auto/span 12;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: bold;
 }
