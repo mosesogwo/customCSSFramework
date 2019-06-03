@@ -1,0 +1,51 @@
+body {
+    background-color: lightgrey;
+}
+
+div {
+    /* height: 200px; */
+    /* width: 200px; */
+}
+
+section {
+    height: 100vh;
+    overflow-y: scroll;
+}
+
+.side-bar {
+    background-color: #6F23FF;
+    color: silver;
+    padding-left: 2em;
+    font-size: 0.8em;
+}
+
+.side-bar a {
+    display: block;
+    color: white;
+    margin: 1em 0;
+    text-decoration: none;
+}
+
+.side-bar a i {
+    margin-right: 7px;
+}
+
+.logo {
+    text-align: center;
+    padding-top: 1em;
+    margin-left: -2em;
+    /* padding-bottom: 1em; */
+}
+
+.logo img {
+    height: 60px;
+    width: 60px;
+}
+
+section:last-of-type {
+    background: white;
+}
+
+.nav-section {
+    margin-top: 4em;
+}
