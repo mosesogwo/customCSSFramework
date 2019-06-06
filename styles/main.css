@@ -1,0 +1,96 @@
+body {
+    background-color: lightgrey;
+}
+
+.row {
+    grid-gap: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+div {
+    /* height: 200px; */
+    /* width: 200px; */
+}
+
+section {
+    height: 100vh;
+    overflow-y: scroll;
+}
+
+.side-bar {
+    background-color: #6F23FF;
+    color: silver;
+    padding-left: 2em;
+    font-size: 1em;
+    
+}
+
+.side-bar a {
+    display: block;
+    color: white;
+    margin: 1em 0;
+}
+
+.side-bar a i {
+    margin-right: 7px;
+}
+
+.logo {
+    text-align: center;
+    padding-top: 1em;
+    margin-left: -2em;
+    /* padding-bottom: 1em; */
+}
+
+.logo img {
+    height: 60px;
+    width: 60px;
+}
+
+.nav-section {
+    margin-top: 4em;
+}
+
+.dboard-main {
+    background: lightgray;
+    padding-left: 50px;
+}
+
+.dboard {
+    background: white;
+    padding: 10px;
+    margin:  0 -50px;;
+    color: gray;
+}
+
+.dboard-title {
+    padding-left: 50px;
+}
+
+.dboard-img {
+    text-align: right;
+    padding-right: 50px;
+}
+
+.dboard-img img {
+    height: 30px;
+}
+
+.day {
+    margin: 60px 0;
+}
+
+.day h2,
+.day2 h5 {
+    font-weight: 300;
+}
+
+.agenda {
+    margin: 30px 30px 30px 0;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+}
